@@ -1,5 +1,5 @@
 
-import img from "chef.png"
+import img from "/dadoun2.github.io/chef.png"
 export default function Header() {
     return (
     <header>
