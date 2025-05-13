@@ -12,7 +12,7 @@ header{
     z-index: 100;
     font-size: smaller;
     color:#171717;
-    font-family:Ink Free;
+font-family: 'Patrick Hand', 'Ink Free', cursive;
     box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.10);
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ header > h1{
 .ingredients-form{
    
     margin:30px 30px 10px;
-    font-family: Ink Free;
+    font-family: 'Patrick Hand', 'Ink Free', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ header > h1{
 }
 
 .btn-add{
-    font-family: Ink Free;
+    font-family: 'Patrick Hand', 'Ink Free', cursive;
     font-weight: 600;
     background-color: #000000;
     color: rgb(255, 255, 255);
@@ -87,7 +87,7 @@ header > h1{
 .btn-remove{
     scale: 0.90;
     margin-left: 50px;
-    font-family: Ink Free;
+    font-family: 'Patrick Hand', 'Ink Free', cursive;
     font-weight: 600;
     background-color: #575757;
     color: rgb(255, 255, 255);
@@ -139,7 +139,7 @@ header > h1{
 
 .ingredients-list-header{
  
-    font-family: Ink Free;
+    font-family: 'Patrick Hand', 'Ink Free', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +149,7 @@ header > h1{
 
 .ingredients-list{
     
-    font-family: Ink Free;
+    font-family: 'Patrick Hand', 'Ink Free', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +176,7 @@ td{
     margin: auto;
     margin-bottom: 30px;
     background-color: rgb(224, 224, 224);
-    font-family: Ink Free;
+    font-family: 'Patrick Hand', 'Ink Free', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,7 +205,7 @@ td{
 .btn-recipe{
     font-size: 13px;
     /*margin-left: 50px;*/
-    font-family: Ink Free;
+    font-family: 'Patrick Hand', 'Ink Free', cursive;
     font-weight: 600;
     background-color: #c75f32;
     color: rgb(255, 255, 255);
