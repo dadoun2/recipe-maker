@@ -6,6 +6,7 @@ body{
     background-color: #f4f4f4;
 }
 
+
 header{
     position: sticky;
     top: 0 ;
@@ -134,6 +135,13 @@ header > h1{
     }
     .ingredients-list{
         align-items: center;
+    }
+    .body{
+        width:375px;
+        height:667px;
+        margin:auto;
+        overflow:hidden;
+        display:block
     }
 }
 
