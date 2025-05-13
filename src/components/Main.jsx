@@ -71,7 +71,7 @@ export default function Main(){
                 <label htmlFor="text">{alertLabel} </label>  
 
                 <input id="text" className="txt" type="text" name="ingredient" pattern="^[a-zA-Z ]+$" 
-                title="One Item at a time ( No space or special characters )" placeholder="e.g. Onion, Meat..." 
+                title="One Item at a time ( No space or special characters )" placeholder="e.g. Onion" 
                 onChange={handleChange} value={input} /> 
 
                 <button className="btn-add">Add ingredient</button>
