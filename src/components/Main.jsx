@@ -37,11 +37,12 @@ export default function Main(){
         // by copying the existing ingredients and appending the new one
          
         if(ingredients.length<10 && trimmed!=="") { 
+            setIngredients(prevIngredients=>[...prevIngredients, trimmed])
            setInput(""); // Clear the input field
             setAlertLabel("✅ Ingredient added ✅")
             setTimeout(() => setAlertLabel("Add your ingredients"), 1000);
             // The setAlertLabel function is used to update the alert label
-             setIngredients(prevIngredients=>[...prevIngredients, trimmed])
+             
         }
         else {
             setInput("")
