@@ -1,12 +1,8 @@
-
 export default function Header() {
-    return (
+  return (
     <header>
-        <img src="./chef.png" alt="Chef Logo" />
-        <h1>Recipe Maker </h1>
+      <img src="./chef.png" alt="Chef Logo" />
+      <h1>Recipe Maker </h1>
     </header>
-
-    )
+  );
 }
-
- 
