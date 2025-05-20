@@ -47,6 +47,7 @@ export default function Main() {
     }
   }
 
+
   function handleChange(e) {
     const { value } = e.target;
     setInput(value);
@@ -86,6 +87,7 @@ export default function Main() {
         getRecipe={getRecipe}
         ingredients={ingredients}
         setIngredients={setIngredients}
+        // setIngredients={setIngredients}
       />
 
       {recipe && <GeneratedRecipe recipe={recipe} />}
